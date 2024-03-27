@@ -1,0 +1,7 @@
+{
+	http_port 8080
+}
+:8443 {
+	respond "this is a test"
+	tls localhost.crt localhost.key
+}
